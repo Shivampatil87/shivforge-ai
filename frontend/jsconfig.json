@@ -1,0 +1,10 @@
+{
+  "framer-motion": "^12.34.3",
+    "compilerOptions": {
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
