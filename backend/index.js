@@ -21,6 +21,11 @@ app.use(cors({
     credentials: true
 }))
 
+// Health Route
+app.get('/', (req, res) => {
+    res.send('ShivForge Backend Running 🚀')
+})
+
 app.use('/api/auth', authRoute)
 app.use('/api/website', websiteRoute)
 app.use('/api/payment', paymentRoute)
